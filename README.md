@@ -2,7 +2,8 @@
 
 A new Flutter project.
 
-## Getting Started
+An app that displays the weather conditions of different cities but on static values when connected with correct API's will definetly show real-time data.
+Developed using Flutter and Dart.
 
 This project is a starting point for a Flutter application.
 
