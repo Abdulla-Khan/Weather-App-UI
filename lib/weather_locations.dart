@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+// ignore_for_file: non_constant_identifier_names
 
 class WeatherLocation {
   final String city;
@@ -53,18 +53,9 @@ final LocationList = [
       city: 'Dadu',
       datetime: '1:14 PM - Tuesday 12,Oct,2021',
       temprature: '17\u2103',
-      weathertype: 'Cloudy',
+      weathertype: 'Rain',
       iconURL: 'assets/cloudy.svg',
       wind: '8',
       rain: '7',
       humidity: '82'),
-  WeatherLocation(
-      city: 'Lahore',
-      datetime: '2:20 PM - Wednesday 13,Oct,2021',
-      temprature: '15\u2103',
-      weathertype: 'Rainy',
-      iconURL: 'assets/rain.svg',
-      wind: '20',
-      rain: '70',
-      humidity: '91'),
 ];

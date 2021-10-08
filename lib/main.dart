@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
-import "package:google_fonts/google_fonts.dart";
 import 'package:weather_app/screens/weather_app.dart';
 
 void main() {
-  runApp(Weather_App());
+  runApp(const Weather_App());
 }
 
 class Weather_App extends StatelessWidget {
+  const Weather_App({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -15,7 +16,7 @@ class Weather_App extends StatelessWidget {
       theme: ThemeData(
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const WeatherApp(),
+      home: const Weather(),
     );
   }
 }
